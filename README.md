@@ -153,6 +153,9 @@ now after adding public in front of our favoriteNumber we can see it in our inte
 
 Finally, after adding more data to our contract we will deploy it on our testNetwork which is sepolia so first we will connect our metamask to our remix IDE
  ![Screenshot 2025-04-10 130822](https://github.com/user-attachments/assets/f5509382-e380-4c01-8d1a-3f8f8e6f661d)
+ ![Screenshot 2025-04-10 131837](https://github.com/user-attachments/assets/495f4fee-1a0f-4d9f-83ff-24f3ae8da62f)
+![Screenshot 2025-04-10 131918](https://github.com/user-attachments/assets/496191aa-3865-4a51-8ecc-bed88013d35d)
+
 
 
 
