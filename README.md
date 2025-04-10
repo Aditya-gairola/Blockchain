@@ -101,10 +101,26 @@ IPFS privacy and encryption
   2. ipfs add myfile.txt
   3. openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -salt -in myfile.txt -out myfile_encrypted.txt -pass pass:Yourpassword
   4. ipfs add myfile_encrypted.txt
+ ![Screenshot 2025-04-10 111915](https://github.com/user-attachments/assets/7aa5d0dd-e5ac-4f05-9e4e-6cdf243d2407)
+
   5. cat myfile_encrypted.txt
   6. openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in myfile_encrypted.txt -out decrypted_file.txt -pass pass:Yourpassword
   7. cat decrypted_file.txt
   8. ipfs add decrypted_file.txt
+
+##METAMASK
+We will be using MetaMask as our Ethereum wallet and browser-based interface. MetaMask allows us to manage Ethereum accounts, sign transactions, and interact with decentralized applications (dApps).
+For our development and testing environment, we will use the Sepolia Test Network. Sepolia is one of Ethereum's official proof-of-stake test networks designed for testing smart contracts and blockchain interactions without using real ETH.
+
+![Screenshot 2025-04-10 113011](https://github.com/user-attachments/assets/770966d1-5e5d-426c-912e-bae4837e526a)
+
+#SEPOLIA FAUCET
+To perform operations like deploying contracts or sending transactions on the Sepolia testnet, we need test ETH (which has no real-world value). For this, we will use the Google Cloud Web3 Faucet.
+
+This faucet provides free Sepolia ETH for development purposes. It is hosted by Google Cloud and is accessible at the following URL:
+
+🔗 https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+![Screenshot 2025-04-10 113102](https://github.com/user-attachments/assets/ae3b0aa5-490e-4d5d-94f9-5d4ae8a20951)
 
 
 
