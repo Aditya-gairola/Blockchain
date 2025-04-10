@@ -88,7 +88,8 @@ Commands(IPFS)
    18. kill <PID>
    19. in browser you can directly run this to see the IPFS:
        https://ipfs.io/ipfs/QRRHQWIRHIWHRIHWIEHRIWHR
-   20.```ipfs add <videoPath>
+  
+   20.```ipfs add <videoPath>```
    ![Screenshot 2025-04-10 110430](https://github.com/user-attachments/assets/ded33e55-c2f9-4ee1-868a-aceb71be7ac0)
 
 
