@@ -115,7 +115,7 @@ For our development and testing environment, we will use the Sepolia Test Networ
 
 ![Screenshot 2025-04-10 113011](https://github.com/user-attachments/assets/770966d1-5e5d-426c-912e-bae4837e526a)
 
-# SEPOLIA FAUCET
+### SEPOLIA FAUCET
 
 To perform operations like deploying contracts or sending transactions on the Sepolia testnet, we need test ETH (which has no real-world value). For this, we will use the Google Cloud Web3 Faucet.
 
