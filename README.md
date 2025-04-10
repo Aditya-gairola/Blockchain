@@ -137,21 +137,33 @@ Remix IDE is a web-based tool that lets you write, compile, test, and deploy tho
    we are going to create a application that can store information on blockchain
     -we will create a new file named simpleStorage.sol
   ### Defining a solidity version
-so the first thing you are going to need in any solidity program is the SPDX License Identifier which we use because SPDX license identifiers are used to make it clear what license a piece of software is under. They are like a shorthand code that tells you the rules for using, modifying, and sharing the software. This helps everyone understand the terms quickly and easily, making it simpler to use and share open-source software. And solidity version that's always gonna be on top of your solidity code. eg.                                            ``` // SPDX-License-Identifier: MIT
-    pragma solidity >=0.6.0 <0.9.0;```
+so the first thing you are going to need in any solidity program is the SPDX License Identifier which we use because SPDX license identifiers are used to make it clear what license a piece of software is under. They are like a shorthand code that tells you the rules for using, modifying, and sharing the software. This helps everyone understand the terms quickly and easily, making it simpler to use and share open-source software. And solidity version that's always gonna be on top of your solidity code. eg.   
+
+```// SPDX-License-Identifier: MIT ```
+
+ ```  pragma solidity >=0.6.0 <0.9.0;```
+    
   ### Defining a contract
 the next thing we are going to do is defining a contract so contract is a keyword in solidity which stands for our smart contract
 
 now we can deploy our smart contract on a simulated environment
+
+
  ![Screenshot 2025-04-10 122453](https://github.com/user-attachments/assets/d881da12-c702-44c9-ba8f-96c3fa7c030a)
 
 we can store some value also 
+
+
  ![Screenshot 2025-04-10 122754](https://github.com/user-attachments/assets/c588a92f-95c4-4699-a260-83ccf4843091)
 
 now after adding public in front of our favoriteNumber we can see it in our interface
+
+
  ![Screenshot 2025-04-10 123520](https://github.com/user-attachments/assets/aa14613d-6ebf-4a30-89f9-8c865937e118)
 
 Finally, after adding more data to our contract we will deploy it on our testNetwork which is sepolia so first we will connect our metamask to our remix IDE
+
+
  ![Screenshot 2025-04-10 130822](https://github.com/user-attachments/assets/f5509382-e380-4c01-8d1a-3f8f8e6f661d)
  ![Screenshot 2025-04-10 131837](https://github.com/user-attachments/assets/495f4fee-1a0f-4d9f-83ff-24f3ae8da62f)
 ![Screenshot 2025-04-10 131918](https://github.com/user-attachments/assets/496191aa-3865-4a51-8ecc-bed88013d35d)
