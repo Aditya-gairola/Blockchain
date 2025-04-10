@@ -124,6 +124,36 @@ This faucet provides free Sepolia ETH for development purposes. It is hosted by 
 🔗 https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 ![Screenshot 2025-04-10 113102](https://github.com/user-attachments/assets/ae3b0aa5-490e-4d5d-94f9-5d4ae8a20951)
 
+## SOLIDITY
+
+Solidity is a programming language used to write smart contracts on the Ethereum blockchain
+
+### Remix IDE
+Remix IDE is a web-based tool that lets you write, compile, test, and deploy those smart contracts easily in your browser.
+![Screenshot 2025-04-10 115244](https://github.com/user-attachments/assets/ff07f6ee-a723-474e-bd24-921c623dccdb)
+
+### 1. First project on solidity
+   we are going to create a application that can store information on blockchain
+    -we will create a new file named simpleStorage.sol
+  ### Defining a solidity version
+so the first thing you are going to need in any solidity program is the SPDX License Identifier which we use because SPDX license identifiers are used to make it clear what license a piece of software is under. They are like a shorthand code that tells you the rules for using, modifying, and sharing the software. This helps everyone understand the terms quickly and easily, making it simpler to use and share open-source software. And solidity version that's always gonna be on top of your solidity code. eg.                                            ``` // SPDX-License-Identifier: MIT
+    pragma solidity >=0.6.0 <0.9.0;```
+  ### Defining a contract
+the next thing we are going to do is defining a contract so contract is a keyword in solidity which stands for our smart contract
+
+now we can deploy our smart contract on a simulated environment
+![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/766e20a5-eb56-4988-bc7d-a64650f925c9)
+
+we can store some value also 
+![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/a821f4fd-aee5-40eb-a49f-b3c858662550)
+
+now after adding public in front of our favoriteNumber we can see it in our interface
+![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/8fb666ac-66ce-4e9c-909b-00221f5150ac)
+
+Finally, after adding more data to our contract we will deploy it on our testNetwork which is sepolia so first we will connect our metamask to our remix IDE
+![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/a7ff0f65-1209-423e-9e91-ada319749cea)
+
+
 
 
 
