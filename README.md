@@ -4,7 +4,9 @@ you can use Fabric samples to get started working with Hyperledger Fabric, explo
 
 ## Getting started with Fabric samples
 To use the Fabric samples, you need to download the Fabric Docker images and Fabric CLI tools.
-1.sudo apt install golang-go
+1.'''bash 
+    sudo apt install golang-go
+    '''
 2.docker --version
 3.docker-compose -version
 4.ls
