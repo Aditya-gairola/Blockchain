@@ -6,19 +6,29 @@ you can use Fabric samples to get started working with Hyperledger Fabric, explo
 To use the Fabric samples, you need to download the Fabric Docker images and Fabric CLI tools.
 
 1.```bash
-sudo apt install golang-go```
+sudo apt install golang-go
 
   
 2.docker --version
+
 3.docker-compose -version
+
 4.ls
+
 5.git clone -b main https://github.com/hyperledger/fabric-samples.git
+
 6.cd fabric-samples
+
 7.curl -sSL https://bit.ly/2ysbOFE | bash -s
+
 8.cd test-network
+
 9../network.sh
+
 10. ./network.sh up
+
 11. ./network.sh createChannel
+
 12. ./network.sh down
 ![Screenshot from 2025-04-07 14-13-14](https://github.com/user-attachments/assets/59c0e94f-690a-43a7-9d0d-e6cb4cf2b115)
 
@@ -56,12 +66,18 @@ Commands(IPFS)
    5. sudo bash install.sh
    6. ipfs -version
    7. ipfs init
-   8. ipfs daemon
+   8.``` ipfs daemon```
+ ![Screenshot (9)](https://github.com/user-attachments/assets/af70e3f9-aa99-4900-bde5-1e702faec198)
+
+ ![Screenshot 2025-04-10 103327](https://github.com/user-attachments/assets/c0b5fd35-2348-467b-a71c-d37f6e41305c)
+
    9. On Browser: http://127.0.0.1:5001/webui
    10. To run ipfs daemon in background: ipfs daemon > ipfs.log 2>&1 &
    11. This is daemon ID:[1] 772
    12. Add file: echo "Hello,IPFS!" > hello.txt
-   13. ipfs add hello.txt
+   13. ```bashipfs add hello.txt```
+![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/1400bd31-0ab7-480f-bb2d-a72c9f276b23)
+
    14. ipfs cat<CID>
    15. Add a directory:
        mkdir myfolder
@@ -72,6 +88,9 @@ Commands(IPFS)
    18. kill <PID>
    19. in browser you can directly run this to see the IPFS:
        https://ipfs.io/ipfs/QRRHQWIRHIWHRIHWIEHRIWHR
+   20.```ipfs add <video path>
+   ![Screenshot 2025-04-10 110430](https://github.com/user-attachments/assets/ded33e55-c2f9-4ee1-868a-aceb71be7ac0)
+
 
 
 ###Assignment
