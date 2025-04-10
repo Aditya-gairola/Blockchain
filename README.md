@@ -76,7 +76,7 @@ Commands(IPFS)
    10. To run ipfs daemon in background: ipfs daemon > ipfs.log 2>&1 &
    11. This is daemon ID:[1] 772
    12. Add file: echo "Hello,IPFS!" > hello.txt
-   13. ```bashipfs add hello.txt```
+   13. ```ipfs add hello.txt```
 ![Screenshot 2025-04-10 104119](https://github.com/user-attachments/assets/1400bd31-0ab7-480f-bb2d-a72c9f276b23)
 
    14. ipfs cat<CID>
