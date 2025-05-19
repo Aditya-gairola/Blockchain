@@ -44,3 +44,9 @@ contract StudentRecords {
 }
 
 ```
+## Deployment
+
+![Screenshot from 2025-05-19 16-30-44](https://github.com/user-attachments/assets/6d984760-545f-45cb-ba8d-7d0a6c617e36)
+
+![Screenshot from 2025-05-19 16-32-30](https://github.com/user-attachments/assets/0e62d2d8-c6f8-43e9-84bd-b22885add4ee)
+
