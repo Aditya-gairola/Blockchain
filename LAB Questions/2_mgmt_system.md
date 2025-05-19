@@ -50,3 +50,5 @@ contract StudentRecords {
 
 ![Screenshot from 2025-05-19 16-32-30](https://github.com/user-attachments/assets/0e62d2d8-c6f8-43e9-84bd-b22885add4ee)
 
+![Screenshot from 2025-05-19 17-01-37](https://github.com/user-attachments/assets/8d835a71-31c9-45a8-a413-22b42f226a5e)
+
