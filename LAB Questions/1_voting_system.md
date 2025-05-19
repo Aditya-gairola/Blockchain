@@ -45,4 +45,18 @@ contract VotingSystem {
     }
 }
 ```
+## Deloyment 
+### Connecting to wallet
+
+![Screenshot from 2025-05-19 15-43-56](https://github.com/user-attachments/assets/6ff86904-5fe8-430b-a955-c7e5291e7800)
+
+### Deploying
+
+ ![Screenshot from 2025-05-19 15-46-21](https://github.com/user-attachments/assets/5d94c454-b168-4264-9a11-d1c35bb324d7)
+
+ ![Screenshot from 2025-05-19 15-46-35](https://github.com/user-attachments/assets/5e6f9b3f-0779-4d72-8b7e-82ffcd49f17f)
+
+
+
+
 
