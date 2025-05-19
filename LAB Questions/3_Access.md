@@ -7,6 +7,7 @@ execute them. We demonstrate this with a simple contract using a modifier:
 
 ## Code
 ```
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
